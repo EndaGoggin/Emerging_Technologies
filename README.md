@@ -79,3 +79,37 @@ jupyter lab
 ### Step 5 - Use the opened browser window to select wither Notebook on the left hand side of the screen
 
 
+## Run Notebooks with Docker
+### Step 1 - Clone the repository using one of 3 commands
+***
+
+HTTPS
+```
+https://github.com/EndaGoggin/Emerging_Technologies.git
+```
+SSH
+```
+git@github.com:EndaGoggin/Emerging_Technologies.git
+```
+Github CLI
+```
+gh repo clone EndaGoggin/Emerging_Technologies
+```
+
+### Step 2 - Install Docker on your machine from this link
+***
+```
+https://docs.docker.com/get-docker/
+```
+
+### Step 3 - Run the following command in this projects root folder
+***
+```
+docker-compose up
+```
+
+### Step 4 - Follow the instructions from the bottom of the output to open Jupyter in your browser
+***
+
+### Step 5 - Select either scikit-learn.ipynb or quantum-computing.ipynb to view either notebook
+***
